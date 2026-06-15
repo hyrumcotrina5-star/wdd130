@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  
+  --primary-color: #060401;
+  --secondary-color: #3d810ff0;
+  --accent1-color: #782519;
+  --accent2-color: #d7be00;
+  --accent3-color: #390a86;
+
+  
+  --heading-font: "Dancing Script", cursive;
+  --paragraft-font:"Oswald", sans-serif; 
+  --other-font: "Philosopher", sans-serif;
+
+
+  --headline-color-on-white: #04090b;
+  --headline-color-on-color: #ffffff;
+  --paragraph-color-on-white: #1d618e;
+  --paragraph-color-on-color: #79d8da;
+  --paragraph-background-color: #7c2828;
+
+
+  --nav-link-color: #ffffff;
+  --nav-background-color: #d7be00;
+  --nav-hover-link-color: #610000;
+  --nav-hover-background-color: #000000;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  font-family: var(--paragraph-font);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--other-font);
+  color: var(--headline-color-on-white);
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+.colors {
+  width: 100%;
+  min-width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #856a6a;
+  height: 3em;
+}
+
+.colors td {
+  width: 20%;
+  height: 4em;
+}
+
+.primary { 
+  background-color: var(--primary-color); 
+  color: white;
+}
+.secondary { 
+  background-color: var(--secondary-color); 
+  color: white;
+}
+.accent1 { 
+  background-color: var(--accent1-color); 
+  color: white;
+}
+.accent2 { 
+  background-color: var(--accent2-color); 
+  color: white;
+}
+.accent3 { 
+  background-color: var(--accent3-color); 
+  color: white;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  font-family: var(--paragraph-font);
+  padding: 10px 20px;
+  min-width: 120px;
+  text-decoration: none;
+  color: var(--nav-link-color);
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}

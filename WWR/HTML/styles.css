@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: rgb(20, 11, 117);
+}
+#background {
+    height: 725px;
+}
+
+body {
+    background-color:#0373e2 ; 
+}
+header {
+    background-color:rgba(193, 16, 16, 0.7);
+}
+nav a:hover {
+    background-color: rgb(4, 50, 42);
+}
+nav a {
+    text-align: center;
+    color: #6b9faf;
+    text-decoration: none;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
